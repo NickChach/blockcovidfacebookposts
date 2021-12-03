@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Block Covid-19 Facebook Posts",
+    "version": "1.0",
+    "description": "Are you tired of Facebook posts about Covid-19 flooding your home page? With this Firefox add-on you can hide all Covid-19-related Facebook posts and read only those you personally select. This add-on works only for English and Greek languages. Please vaccinate and take care of yourself and your loved ones. &#x1F642",
+    "icons":
+    {
+      "48": "icons/virus.png"
+    },
+    "content_scripts":
+    [
+      {
+        "matches": ["*://www.facebook.com/*"],
+        "js": ["blockcovidfbposts.js"]
+      }
+    ]
+}
+  
