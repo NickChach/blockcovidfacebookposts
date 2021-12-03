@@ -11,7 +11,7 @@ function hide() {
             warning1.style = "display: block; margin: auto; width: 50%; height: auto"
             const warning2 = document.createElement("p")
             warning2.innerText = "Beware! Covid-19 content! If you want to read it, click here."
-            warning2.style = "display: block; margin: auto; font-size: 1.5em; color: cyan; text-align: center;"
+            warning2.style = "display: block; margin: auto; font-size: 1.5em; color: #33DBFF; text-shadow: 2px 2px 5px #FF5733; text-align: center;"
             element.replaceWith(warning1, warning2)
             warning2.addEventListener("click", function(e) {
                 e.target.replaceWith(element)
