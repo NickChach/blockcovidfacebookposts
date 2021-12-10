@@ -7,7 +7,7 @@ function hide() {
         if (!element.classList.contains("hidden") && element.innerText.match(covidlibraryRegex) !== null) {
             element.classList.add("hidden")
             const warning1 = document.createElement("img")
-            warning1.src = "https://raw.githubusercontent.com/NickChach/blockcovidfbposts/main/cutecat3.png"
+            warning1.src = "https://raw.githubusercontent.com/NickChach/blockcovidfacebookposts/main/cutecat.png"
             warning1.style = "display: block; margin: auto; width: 50%; height: auto"
             const warning2 = document.createElement("p")
             warning2.innerText = "Beware! Covid-19 content! If you want to read it, click here."
